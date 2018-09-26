@@ -37,7 +37,7 @@ git config user.name "Katebot"
 git config user.email "katebot@katemihalikova.cz"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-if git diff --exit-code > /dev/null; then
+if [ -z "$(git status --porcelain)" ]; then
     echo "No changes to the output on this push; exiting."
     exit 0
 fi
