@@ -1,0 +1,10 @@
+{
+  "name": "fkvelkehamry.cz",
+  "private": true,
+  "scripts": {
+    "build": "cp -r src build"
+  },
+  "repository": "fkvelkehamry/fkvelkehamry.cz",
+  "author": "Kate Miháliková <kate@katemihalikova.cz>",
+  "license" : "MIT"
+}

@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - lts/*
+script: bash ./.travis/deploy.sh
+env:
+  global:
+  - secure: aTULUnuzh4HhpG6v+8En12yIJWsWPwsYNx4yOXFMZHk8LgZagexJciGbgvYoSWCXtzOtYg+2JLb2F+7Ta4tXlpAEccMdIUuaY9vJLT3eJFf3JU0JBPY/gTsuXWKPNE+Puqdejtq+Jdu10hUGG+z7aFu3i27rHkNYi/JNmtvjbaq/I+PKT/EQ3aL3g8UfnX183bNX3/+NMgM4rzfGw+ABa+pPZ/0S5VhpUer5r48CvZDdbnpoAbumxx99iEGzycXZbCJ/PhHxgfvpBy75lySMYPFEeHDdGvcluq2AlfGYpSwARrYmeoPWaI554BhifvR6R2xWLquPz0ofbvl/p0zZvGkmkv+DiuqA0C+pndCf3IZVZF97UA8AxEZ09qGakcGZ6KsmIxML6ki+G5B1EWACfobGXgbO7hxuwlADe0SUFduWw+u+np/PcBy0dTrMgCWfjujDfJBnu1wjK8D85mNmhd7BPsFnDN0+OxiBzbEPm+DpWhmOih1SdzBz91aE6MTzoHhbQqLPfa+tEp9yHEMXKKQm1rgW9dwekzBlTMNfsPuq6BnTNr6BjX8l5QLi5l99yE8lo+1xTXBDakE3ojEv6DMEP8m0u3YbQtzU8ApkMbN/oNqAAt2aMhWXXj2nFVT74FO8OjvaWa+dFyQkGJdKBml10mfAZUFPO3RVbuwXcFQ=
