@@ -406,11 +406,17 @@ strong, b{
 .banner{
 	position:relative;
 }
+
+/* 
+ 
 .banner .item img{
 	margin: 0 auto;
 	filter: alpha(opacity=0);
 	opacity: 0;
 }
+
+*/
+
 .banner .item{
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
