@@ -273,7 +273,7 @@ strong, b{
 2. Navbar
 ============================= */
 .navbar-main{
-	background-color: #f00;
+	background-color: #008e39;
 	border-color: transparent;
 	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
           box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
@@ -338,7 +338,7 @@ strong, b{
 }
 .dropdown-menu {
 	border:0;
-    border-bottom: 4px solid #f00;
+    border-bottom: 4px solid #008e39;
 	border-radius:0;
 }
 .dropdown-menu > li > a {
@@ -351,7 +351,7 @@ strong, b{
 }
 .info h3{
 	display:inline-block;
-	color:#f00;
+	color:#008e39;
 	float: left;
 	font-weight: 400;
     margin-top: 0px;
@@ -385,7 +385,7 @@ strong, b{
 	width:30px;
 	height:30px;
 	text-align:center;
-	color:#f00;
+	color:#008e39;
 	display: inline-table;
 	padding-top: 7px;
     border-radius: 50%;
