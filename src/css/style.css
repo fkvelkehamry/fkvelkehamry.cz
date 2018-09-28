@@ -236,7 +236,7 @@ p {
 	padding-bottom: 60px;
 }
 .bg-section{
-	background:url('http://placehold.it/1920x700') no-repeat center center; 
+	background:url('/images/pozadi_1920x700.jpg') no-repeat center center; 
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
@@ -273,7 +273,7 @@ strong, b{
 2. Navbar
 ============================= */
 .navbar-main{
-	background-color: #f00;
+	background-color: #008e39;
 	border-color: transparent;
 	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
           box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
@@ -338,7 +338,7 @@ strong, b{
 }
 .dropdown-menu {
 	border:0;
-    border-bottom: 4px solid #f00;
+    border-bottom: 4px solid #008e39;
 	border-radius:0;
 }
 .dropdown-menu > li > a {
@@ -563,7 +563,7 @@ strong, b{
 4. Match Facts
 ============================= */
 .stat-facts{
-	background: url('/images/pozadi_pozvanka.jpg') no-repeat center center; 
+	background: url('/images/pozadi_1920x400.jpg') no-repeat center center; 
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
@@ -770,7 +770,7 @@ td.tw10{
     padding-bottom: 60px;
 }
 .bg-coach {
-    background:url('/images/pozadi_rozpis.jpg') no-repeat center center; 
+    background:url('/images/pozadi_1920x400.jpg') no-repeat center center; 
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
