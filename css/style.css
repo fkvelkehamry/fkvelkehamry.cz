@@ -385,7 +385,7 @@ strong, b{
 	width:30px;
 	height:30px;
 	text-align:center;
-	color:#ff0;                    /* zelena barva jako znak hamru = 008e39, cervena barva byla f00 */
+	color:#ff0;                    /* barva log fb ig ... zelena barva jako znak hamru = 008e39 */
 	display: inline-table;
 	padding-top: 7px;
     border-radius: 50%;
@@ -571,7 +571,7 @@ strong, b{
 	background-size: cover;
 }
 .bg-overlay{
-	background-color: #ff0;
+	background-color: transparent;
 	display:block;
 	padding:80px 0;
 }
