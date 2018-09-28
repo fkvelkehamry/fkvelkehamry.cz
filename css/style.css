@@ -563,7 +563,7 @@ strong, b{
 4. Match Facts
 ============================= */
 .stat-facts{
-	background:url('images/pozadi_pozvanka.jpg') no-repeat center center; 
+	background-image:url('images/pozadi_pozvanka.jpg') no-repeat center center; 
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
