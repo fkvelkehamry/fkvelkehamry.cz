@@ -576,6 +576,11 @@ strong, b{
 	display:block;
 	padding:80px 0;
 }
+.bg-overlay-lost{
+	background-color: #f00;
+	display:block;
+	padding:80px 0;
+}
 .match-club{
 	text-align:center;
 	margin-bottom:40px;
