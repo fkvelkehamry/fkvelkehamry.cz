@@ -359,6 +359,7 @@ strong, b{
 }
 .info a{
 	color:#fff;
+	margin-left: 50px;
 }
 .info a:hover{
 	color:#FBA301;
