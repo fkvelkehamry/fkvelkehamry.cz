@@ -351,7 +351,7 @@ strong, b{
 }
 .info h3{
 	display:inline-block;
-	color:#008e39;              /* zelena barva jako znak hamru = 008e39, cervena barva byla f00 */
+	color:#ff0;              /* novinky: barva pisma */
 	float: left;
 	font-weight: 400;
     margin-top: 0px;
