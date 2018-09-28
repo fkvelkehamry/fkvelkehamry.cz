@@ -580,7 +580,7 @@ strong, b{
 }
 .club-name{
 	font-size: 20px;
-	font-family: 'bebas_neue', sans-serif;
+	font-family: 'arial', sans-serif;
     font-weight: 700;
 	color: #fff;
 }
@@ -589,7 +589,7 @@ strong, b{
 }
 .liga-name{
 	font-size: 40px;
-	font-family: 'bebas_neue', sans-serif;
+	font-family: 'arial', sans-serif;
     font-weight: 700;
 	color: #fff;
 	margin-bottom: 10px;
@@ -598,14 +598,14 @@ strong, b{
 }
 .liga-date{
 	font-size: 20px;
-	font-family: 'bebas_neue', sans-serif;
+	font-family: 'arial', sans-serif;
     font-weight: 700;
 	color: #fff;
 	margin-bottom: 40px;
 }
 .liga-vs{
 	font-size: 28px;
-	font-family: 'bebas_neue', sans-serif;
+	font-family: 'aria', sans-serif;
     font-weight: 700;
 	color: #fff;
 	margin-bottom: 60px;
