@@ -134,7 +134,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #f00;
+    color: #008e39;
     text-decoration: none;
 }
 h3, h4, h5 {
@@ -145,8 +145,8 @@ h3, h4, h5 {
 }
 .btn-default {
     color: #333;
-    background-color: #f00;
-    border-color: #f00;
+    background-color: #008e39;
+    border-color: #008e39;
 	border-radius: 4px;
 	color:#fff;
 	padding: 6px 35px;
@@ -189,14 +189,14 @@ h3, h4, h5 {
 	position: relative;
 }
 .page-title .border-style{
-	border-top: 1px solid #f00;
+	border-top: 1px solid #008e39;
 	width: 200px;
 	margin: 0 auto;
 	padding-top: 8px;
 }
 .page-title .border-style:before{
 	content: '';
-	border-top: 3px solid #f00;
+	border-top: 3px solid #008e39;
 	width: 200px;
     display: block;
     margin: 0 auto;
