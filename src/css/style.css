@@ -385,14 +385,14 @@ strong, b{
 	width:30px;
 	height:30px;
 	text-align:center;
-	color:#008e39;                    /* zelena barva jako znak hamru = 008e39, cervena barva byla f00 */
+	color:#ff0;                    /* zelena barva jako znak hamru = 008e39, cervena barva byla f00 */
 	display: inline-table;
 	padding-top: 7px;
     border-radius: 50%;
 	margin-right:10px;
 }
 .top-sosmed span:hover{
-	color:#fff;
+	color:#008e39;
 }
 .top-sosmed span.fa{
 	font-size:18px;
@@ -458,7 +458,7 @@ strong, b{
     color: #fff;
     line-height: 42px;
     font-weight: 700;
-	background-color: #f00;
+	background-color: #008e39;
 	border-left:4px solid #000;
 	padding: 20px 20px;
 	margin-bottom: -20px;
@@ -479,7 +479,7 @@ strong, b{
 .item .caption-desc{
 	margin-bottom:-10px;
 	background-color: #000;
-	border-left:4px solid #f00;
+	border-left:4px solid #008e39;
 	padding: 20px 20px;
 	-webkit-transition: all .5s linear;
 	-moz-transition: all .5s linear;
@@ -559,61 +559,6 @@ strong, b{
 }
 
 
-/* ==========================
-4-B. LAST Match Facts
-============================= */
-.last-stat-facts{
-	background: url('/images/pozadi_1920x400.jpg') no-repeat center center; 
-	-webkit-background-size: cover; 
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
-	background-size: cover;
-}
-.bg-overlay_B{
-	background-color: #f0f0f0;
-	display:block;
-	padding:80px 0;
-}
-.match-club{
-	text-align:center;
-	margin-bottom:40px;
-}
-.club-name_B{
-	font-size: 20px;
-	font-family: 'arial', sans-serif;
-    font-weight: 700;
-	color: #008e39;
-}
-.match-description_B{
-	text-align:center;
-}
-.liga-name_B{
-	font-size: 40px;
-	font-family: 'arial', sans-serif;
-    font-weight: 700;
-	color: #008e39;
-	margin-bottom: 10px;
-    margin-top: -30px;
-	line-height: 30px;
-}
-.liga-date_B{
-	font-size: 20px;
-	font-family: 'arial', sans-serif;
-    font-weight: 700;
-	color: #008e39;
-	margin-bottom: 40px;
-}
-.liga-vs_B{
-	font-size: 28px;
-	font-family: 'arial', sans-serif;
-    font-weight: 700;
-	color: #008e39;
-	margin-bottom: 60px;
-}
-.liga-location_B{
-	font-size: 14px;
-	color: #008e39;
-}
 
 /* ==========================
 4. Match Facts
@@ -626,7 +571,7 @@ strong, b{
 	background-size: cover;
 }
 .bg-overlay{
-	background-color: transparent;
+	background-color: #ff0;
 	display:block;
 	padding:80px 0;
 }
