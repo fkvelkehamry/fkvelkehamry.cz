@@ -790,7 +790,7 @@ td.tw10{
 	background-size: cover;
 }
 .section.coach .page-title .lead {
-    color: #008e39;
+    color: #fff;
 }
 .coach-item{
 	margin: 10px 0;
@@ -823,13 +823,13 @@ td.tw10{
 }
 .coach-item .item-body{
 	background-color: #000;
-    border-top: 3px solid #008e39;
+    border-top: 3px solid #008e39; 
     position: relative;
     display: block;
     padding: 20px;	
 }
 .coach-item:hover .item-body{
-	background-color: #008e39;
+	background-color: #f00;
 }
 .coach-item .item-body:after{
 	content: '';
@@ -845,14 +845,14 @@ td.tw10{
 }
 .coach-item .item-body .position {
     font-size: 14px;
-    color: #999;
+    color: #ff0;
     line-height: 22px;
     font-style: italic;
     display: inline-block;
 }
 .coach-item .item-body .c-sosmed {
     font-size: 14px;
-    color: #999;
+    color: #ff0;
     line-height: 22px;
     font-style: italic;
     display: inline-block;
@@ -898,7 +898,7 @@ td.tw10{
 	width: 70px;
 	height: 70px;
 	display: inline-block;
-	background-color: #000;
+	background-color: #008e39;
 	color: #fff;
 	padding-top: 25px;
 	font-weight: bold;
@@ -911,10 +911,10 @@ td.tw10{
 	-webkit-border-radius: 50%;
 }
 .nav-history a:hover{
-	background-color: #008e39;
+	background-color: #000;
 }
 .nav-history .active a{
-	background-color: #008e39;
+	background-color: #000;
 }
 .history-caro{
 	padding: 30px 30px;
