@@ -829,7 +829,7 @@ td.tw10{
     padding: 20px;	
 }
 .coach-item:hover .item-body{
-	background-color: #f00;
+	background-color: #e0e0e0;
 }
 .coach-item .item-body:after{
 	content: '';
