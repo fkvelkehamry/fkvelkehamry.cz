@@ -823,13 +823,13 @@ td.tw10{
 }
 .coach-item .item-body{
 	background-color: #000;
-    border-top: 3px solid #008e39; 
+    border-top: 3px solid #fff; 
     position: relative;
     display: block;
     padding: 20px;	
 }
 .coach-item:hover .item-body{
-	background-color: #e0e0e0;
+	background-color: #000;
 }
 .coach-item .item-body:after{
 	content: '';
@@ -839,7 +839,7 @@ td.tw10{
 }
 .coach-item .item-body .name {
     font-size: 18px;
-    color: #008e39;
+    color: #fff;
     line-height: 24px;
     margin-bottom: 10px;
 }
