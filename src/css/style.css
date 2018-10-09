@@ -742,7 +742,7 @@ strong, b{
 .nav-tabs > li {
     float: left;
     margin-bottom: -1px;
-    width: 33.3333%;
+    width: 33.3333%;      /* 3 panely */
 }
 .nav-tabs > li > a {
     margin-right: -1px;
@@ -800,6 +800,9 @@ td.tw40{
 }
 td.tw50{
 	width: 50%;
+}
+td.tw20{
+	width: 20%;
 }
 td.tw10{
 	width: 10%;
