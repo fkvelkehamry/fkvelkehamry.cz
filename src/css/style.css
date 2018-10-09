@@ -201,6 +201,14 @@ h3, h4, h5 {
     display: block;
     margin: 0 auto;
 }
+.page-title .lead-2{
+	font-size: 36px;
+    color: #fff;
+    line-height: 40px;
+    font-family: 'arial', sans-serif;
+    font-weight: 700;
+	position: relative;
+}
 .page-title .border-style-2{
 	border-top: 1px solid #fff;
 	width: 250px;
