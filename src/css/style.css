@@ -742,7 +742,7 @@ strong, b{
 .nav-tabs > li {
     float: left;
     margin-bottom: -1px;
-    width: 33.3333%;      /* 3 panely */
+    width: 50%;      /* 2 panely 50%, 3 panely 33.3333%*/
 }
 .nav-tabs > li > a {
     margin-right: -1px;
