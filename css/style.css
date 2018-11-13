@@ -1507,13 +1507,6 @@ td.tw5{
 .post-item{
 	margin-bottom: 60px;
 }
-.post-item:hover .image-wrap .meta{
-	background-color: #fff;
-}
-.post-item:hover .image-wrap img{
-	filter: alpha(opacity=80);
-	opacity: .8;
-}
 .post-item .post-title{
 	margin-top: 40px;
 }
@@ -1521,17 +1514,14 @@ td.tw5{
 .post-item .post-title a{
 	font-size: 24px;
     line-height: 30px;
-    color: #666;
+    color: #000;
 	font-weight: 700;
 	padding-bottom: 10px;
 	display:block;
 }
-.post-item .post-title a:hover{
-	color: #f00;
-}
 .post-item .meta-single{
 	font-style: italic;
-	color: #999;
+	color: #000;
 }
 .post-item .meta-single > div{
 	display: inline-table;
