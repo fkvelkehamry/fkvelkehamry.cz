@@ -1506,7 +1506,7 @@ td.tw5{
 }
 .post-item{
 	margin-bottom: 60px;
-	border:2px solid #000;
+	border-bottom:1px solid #999;
 }
 .post-item .post-title{
 	margin-top: 40px;
