@@ -1486,6 +1486,11 @@ td.tw5{
 	display: inline-block;
 	font-style: italic;
 }
+.image-wrap .meta .blog-fans{
+	display: inline-block;
+	margin-right: 40px;
+	font-style: italic;
+}
 .image-wrap .meta .blog-date{
 	position: absolute;
     top: -20px;
