@@ -1764,7 +1764,7 @@ td.tw5{
 9. Client
 ============================= */
 .stat-client{
-	background-color: #29ABE2;
+	background-color: #008e39;
 }
 .bg-client{
 	/* background:url('/images/pozadi_1920x700.jpg') no-repeat center center; */
@@ -1786,6 +1786,16 @@ td.tw5{
 	opacity: .8;
 }
 .client-img:hover img{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.client-img_putz img{
+	margin:0 auto;
+	filter: alpha(opacity=80);
+	opacity: .8;
+}
+.client-img_putz:hover img{
+	background-color: #D90119;
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
