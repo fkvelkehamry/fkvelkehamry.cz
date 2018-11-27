@@ -1767,7 +1767,7 @@ td.tw5{
 	background-color: #29ABE2;
 }
 .bg-client{
-	background:url('/images/pozadi_1920x700.jpg') no-repeat center center; 
+	/* background:url('/images/pozadi_1920x700.jpg') no-repeat center center; */
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
