@@ -2078,9 +2078,10 @@ p.help-block.text-danger li {
 	font-weight: 700;
 }
 .contact{
-	text-align:center;	
+	
 }
 .contact-item{
+	text-align:center;
 	margin-bottom:40px;
 	font-size: 12px;
     line-height: 18px;
