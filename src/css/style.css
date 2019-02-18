@@ -2020,12 +2020,6 @@ td.tw5{
     padding-top: 50px;
 	padding-bottom: 50px;
 }
-.contact-content .contact-title{
-	color: #008e39;
-	font-weight: 700;
-	font-size: 18px;
-	margin-bottom: 20px;
-}
 .shake{
 	margin-bottom:40px;
 }
@@ -2090,6 +2084,12 @@ p.help-block.text-danger li {
 	margin-bottom:40px;
 	font-size: 12px;
     line-height: 18px;
+}
+.contact-title{
+	color: #008e39;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
 .contact-heading{
 	color: #000;
