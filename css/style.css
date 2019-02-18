@@ -2083,15 +2083,15 @@ p.help-block.text-danger li {
 	text-align: left;
 	font-weight: 700;
 }
-.contact-address{
+.contact{
 	
 }
-.contact-address-item{
+.contact-item{
 	margin-bottom:40px;
 	font-size: 12px;
     line-height: 18px;
 }
-.contact-address-heading{
+.contact-heading{
 	color: #000;
     font-weight: 700;
 	margin-bottom:10px;
