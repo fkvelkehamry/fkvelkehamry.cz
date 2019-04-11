@@ -308,10 +308,10 @@ strong, b{
 	display: none;
 }
 .navbar-brand {
-	margin-top: 0px; /* -60px */
+	margin-top: -20px; /* -60px */
 }
 .navbar-main.stiky  .navbar-brand {
-	margin-top: 0px;  /* -15px */
+	margin-top: -10px;  /* -15px */
 }
 .navbar-main .navbar-brand > img {
 	width: 100%;
