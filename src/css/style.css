@@ -299,10 +299,14 @@ strong, b{
 	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
           box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
 }
+
+/*
 .header-top{
 	background-color: #000;
 	color:#fff;
 	height:40px;
+*/
+
 }
 .navbar-main.stiky .header-top{
 	display: none;
@@ -311,12 +315,12 @@ strong, b{
 	margin-top: -20px; /* -60px */
 }
 .navbar-main.stiky  .navbar-brand {
-	margin-top: -10px;  /* -15px */
+	margin-top: -15px;  /* -15px */
 }
 .navbar-main .navbar-brand > img {
 	width: 100%;
-    -webkit-transition: 0.2s all linear;
-	        transition: 0.2s all linear;
+    -webkit-transition: 0.5s all linear;
+	        transition: 0.5s all linear;
 }
 .navbar-main.stiky .navbar-brand > img {
     width: 60%;
@@ -335,8 +339,8 @@ strong, b{
 	background-color:transparent;
 	font-weight:700;
 	text-transform:uppercase;
-	-webkit-transition: 0.2s all linear;
-		transition: 0.2s all linear;
+	-webkit-transition: 0.5s all linear;
+		transition: 0.5s all linear;
 }
 .navbar-main.stiky .navbar-nav > li > a {
     padding-top: 20px;
@@ -350,9 +354,9 @@ strong, b{
 	border-bottom:3px solid #000;
 }
 .navbar-main .navbar-nav > li.active a{
-	color:#000;
+	color:#f00;
 	background-color:transparent;
-	border-bottom:3px solid #000;
+	border-bottom:3px solid #f00;
 }
 .navbar-toggle .icon-bar {
     background-color: #fff;
