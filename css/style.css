@@ -300,12 +300,10 @@ strong, b{
           box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
 }
 
-/*
 .header-top{
 	background-color: #000;
 	color:#fff;
 	height:40px;
-*/
 
 }
 .navbar-main.stiky .header-top{
@@ -319,8 +317,8 @@ strong, b{
 }
 .navbar-main .navbar-brand > img {
 	width: 100%;
-    -webkit-transition: 0.5s all linear;
-	        transition: 0.5s all linear;
+    -webkit-transition: 0.2s all linear;
+	        transition: 0.2s all linear;
 }
 .navbar-main.stiky .navbar-brand > img {
     width: 60%;
@@ -339,8 +337,8 @@ strong, b{
 	background-color:transparent;
 	font-weight:700;
 	text-transform:uppercase;
-	-webkit-transition: 0.5s all linear;
-		transition: 0.5s all linear;
+	-webkit-transition: 0.2s all linear;
+		transition: 0.2s all linear;
 }
 .navbar-main.stiky .navbar-nav > li > a {
     padding-top: 20px;
