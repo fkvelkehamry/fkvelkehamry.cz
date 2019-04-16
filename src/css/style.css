@@ -1792,7 +1792,11 @@ td.tw5{
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
-
+.client-text{
+	text-align: center;
+	font-size: 20px;
+  	color: white;
+}
 
 /* ==========================
 10. FAQ
