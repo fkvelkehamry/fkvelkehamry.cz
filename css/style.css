@@ -299,19 +299,21 @@ strong, b{
 	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
           box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
 }
+
 .header-top{
 	background-color: #000;
 	color:#fff;
 	height:40px;
+
 }
 .navbar-main.stiky .header-top{
 	display: none;
 }
 .navbar-brand {
-	margin-top: -60px;
+	margin-top: -20px; /* -60px */
 }
 .navbar-main.stiky  .navbar-brand {
-	margin-top: -15px;
+	margin-top: -15px;  /* -15px */
 }
 .navbar-main .navbar-brand > img {
 	width: 100%;
@@ -350,9 +352,9 @@ strong, b{
 	border-bottom:3px solid #000;
 }
 .navbar-main .navbar-nav > li.active a{
-	color:#000;
+	color:#f00;
 	background-color:transparent;
-	border-bottom:3px solid #000;
+	border-bottom:3px solid #f00;
 }
 .navbar-toggle .icon-bar {
     background-color: #fff;
