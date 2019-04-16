@@ -1782,6 +1782,7 @@ td.tw5{
 	text-align:center;
 	margin-bottom:40px;
 }
+/*
 .client-img img{
 	margin:0 auto;
 	filter: alpha(opacity=80);
@@ -1791,16 +1792,7 @@ td.tw5{
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
-.client-img_putz img{
-	margin:0 auto;
-	filter: alpha(opacity=80);
-	opacity: .8;
-}
-.client-img_putz:hover img{
-	background-color: #D90119;
-	opacity: 1;
-	filter: alpha(opacity=100);
-}
+*/
 
 /* ==========================
 10. FAQ
