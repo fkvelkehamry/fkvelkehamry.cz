@@ -1335,13 +1335,13 @@ td.tw5{
 	left: 20px;
 	background-color: #000;
 	padding-top: 12px;
-	color: #999;
+	color: #fff;
 	padding: 5px 20px;
 	z-index: 2;
 }
 .blog-item:hover .date{
-	background-color: #fff;
-	color: #000;
+	background-color: #008e39;
+	color: #fff;
 	bottom: -1px;
 }
 .blog-item .item-body{
