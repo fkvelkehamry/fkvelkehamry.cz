@@ -299,7 +299,7 @@ strong, b{
 	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
           box-shadow: 0 5px 5px rgba(0, 0, 0, .05);
 }
-
+/*
 .header-top{
 	background-color: #000;
 	color:#fff;
@@ -309,6 +309,7 @@ strong, b{
 .navbar-main.stiky .header-top{
 	display: none;
 }
+*/
 .navbar-brand {
 	margin-top: -20px; /* -60px */
 }
