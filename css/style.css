@@ -792,6 +792,7 @@ thead tr{
 	padding: 14px 25px;
 	border-top: 0;
 	color: #000;
+  border: 1px
 }
 td.red{
 	background-color: #FF0000;
