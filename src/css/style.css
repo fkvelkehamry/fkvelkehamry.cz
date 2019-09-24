@@ -1302,6 +1302,10 @@ td.tw5{
 .blog{
 	padding-bottom:80px;
 }
+.blog_grey{
+	padding-bottom:80px;
+  background-color: #E7E7E7;  /* F4F4F4 */
+}
 .blog-item{
 	margin-bottom:40px;
 }
