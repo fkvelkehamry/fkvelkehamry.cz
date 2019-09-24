@@ -772,7 +772,7 @@ thead tr{
 	color: #fff;
 	text-align: center;
 }
-.table > thead > tr > td {
+.table > thead > tr > td{
     padding: 14px 25px;
     border-top: 0;
 }
@@ -792,10 +792,11 @@ thead tr{
 	padding: 14px 25px;
 	border-top: 0;
 	color: #000;
-  border: 1px
+  border: 1px;
 }
 td.duraz{
-	background-color: #FFCCCC;
+	background-color: #008e39;
+  color: #FFFFFF;
 }
 td.tw40{
 	width: 40%;
