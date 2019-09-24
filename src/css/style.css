@@ -793,6 +793,9 @@ thead tr{
 	border-top: 0;
 	color: #000;
 }
+td.red{
+	bgcolor: ;
+}
 td.tw40{
 	width: 40%;
 }
