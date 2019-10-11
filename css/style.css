@@ -1001,8 +1001,9 @@ td.tw5{
 /* ==========================
 6. Our Player / Team
 ============================= */
-.player{
-	padding-bottom:40px;	
+.section.player{
+	padding-bottom:40px;
+	background-color: #E7E7E7;
 }
 #player-caro .item{
 	margin: 15px;
