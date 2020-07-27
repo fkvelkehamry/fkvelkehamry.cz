@@ -114,18 +114,18 @@
             </div>
         </div>
 
-        <div class="row" id="novinky">
+        <div class="row">   <!-- id="novinky" -->
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="client-text_b">
 
                     <p>Aktuální informace ohledně změn sledujte níže. 
-					</br></p>
+					<br></p>
 
-					<br />
+					<br>
         
 
-        <!-- <div class="row" id="novinky"></div> -->
+        <div id="novinky">
       
         <script type="text/javascript">
           let div = document.querySelector("#novinky");
@@ -137,12 +137,15 @@
               return `
                 <div class="col">
                   ${from} (${date})<br>
-                  ${text}
+                  ${text}<br>
                 </div>
               `;
             }).join("\n"));
         </script>
-          
+                  
+          <br>
+          <br>
+          </div>  
         </div>
     </div>
 </div>
