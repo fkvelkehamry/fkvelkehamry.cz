@@ -123,23 +123,24 @@
 					</br></p>
 
 					<br />
-
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<!-- VseVJednom.cz - Novinkovač -->
-						<iframe frameborder="0" scrolling="no" width="700" height="250" src="https://vsevjednom.cz/newsboard.php?n=12098" allowtransparency="true">
-						<a href="https://vsevjednom.cz/sluzby/novinkovac">Novinkovač od VseVJednom.cz</a></iframe>
-						<!-- VseVJednom.cz - Novinkovač konec -->
-					   </div>
-                    
-                    <br />
-                    <br />
-
-                </div>
-            </div>
-
         </div>
 
-
+        <div class="row" id="novinky"></div>
+        <script type="text/javascript">
+          let div = document.querySelector("#novinky");
+          fetch("https://api.fkvelkehamry.cz/u13.json")
+            .then(resp => resp.json())
+            .then(data => div.innerHTML = data.map(({from, date, text}) => {
+              date = new Date(date).toLocaleDateString();
+              text = text.replace(/\n/g, "<br>");
+              return `
+                <div class="col">
+                  ${from} (${date})<br>
+                  ${text}
+                </div>
+              `;
+            }).join("\n"));
+        </script>
     </div>
 </div>
 
