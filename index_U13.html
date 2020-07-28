@@ -108,7 +108,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-6 col-md-offset-3">
                 <div class="page-title">
-                    <h2 class="lead">DŮLEŽÍTÉ INFORMACE</h2>
+                    <h2 class="lead">INFORMACE PRO RODIČE</h2>
                     <div class="border-style"></div>
                 </div>
             </div>
@@ -120,33 +120,40 @@
                 <div class="client-text_b">
 
                     <p>Aktuální informace ohledně změn sledujte níže. 
-					<br /></p>
+					          <br />
+                    </p>
 
-					<br />
+					          <br />
         
-<p>
-        <div id="novinky">
+                    <p>
+                      <div id="novinky">
       
-        <script type="text/javascript">
-          let div = document.querySelector("#novinky");
-          fetch("https://api.fkvelkehamry.cz/u13.json")
-            .then(resp => resp.json())
-            .then(data => div.innerHTML = data.map(({from, date, text}) => {
-              date = new Date(date).toLocaleDateString();
-              text = text.replace(/\n/g, "<br>");
-              return `
-                <div class="col">
-                  <br>${from} (${date})<br>
-                  ${text}
-                </div>
-              `;
-            }).join("\n"));
-        </script>
-</p>                  
-            <br />
-            <br />
-          </div>  
-        </div>
+                        <script type="text/javascript">
+                          let div = document.querySelector("#novinky");
+                          fetch("https://api.fkvelkehamry.cz/u13.json")
+                          .then(resp => resp.json())
+                          .then(data => div.innerHTML = data.map(({from, date, text}) => {
+                          date = new Date(date).toLocaleDateString();
+                          text = text.replace(/\n/g, "<br>");
+                          return `
+
+                            <div class="col">
+                              <br>(${date})<br>
+                              ${from}: ${text}
+                            </div>
+
+                          `;
+                          }).join("\n"));
+                        </script>
+                      </div>
+                    </p>  
+              
+                    <br />
+                    <br />
+                </div>  
+             </div>
+          </div>
+  
     </div>
 </div>
 
