@@ -95,22 +95,98 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
-					<div class="caption">PŘÍPRAVKA "U11"</div>
+					<div class="caption">ŽÁCI "U11"</div>
 				</div>
 			</div>
 		</div>
 	</div>
   
 
+<!-- MIMORADNE INFO -->
+<div class="section blog_g2">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-md-offset-3">
+                <div class="page-title">
+                    <h2 class="lead">INFORMACE PRO RODIČE</h2>
+                    <div class="border-style"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">   <!-- id="novinky" -->
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="client-text_b">
+
+                    <p>Zde naleznete pro Vás důležité zprávy, či aktuální infromace ohledně veškerých změn. 
+					<br />
+                    </p>
+
+					<br />
+        
+                    <p>
+                      <div id="novinky">
+      
+                        <script type="text/javascript">
+                          let div = document.querySelector("#novinky");
+                          fetch("https://api.fkvelkehamry.cz/u11.json")
+                          .then(resp => resp.json())
+                          .then(data => div.innerHTML = data.map(({from, date, text}) => {
+                          date = new Date(date).toLocaleDateString();
+                          text = text.replace(/\n/g, "<br>");
+                          return `
+
+                            <div class="col">
+                              <br>(${date})<br>
+                              ${from}: ${text}
+                            </div>
+
+                          `;
+                          }).join("\n"));
+                        </script>
+                      </div>
+                    </p>  
+              
+                    <br />
+					<br />
+					<h3>DOCHÁZKA</h3>
+					<p>Prosíme rodiče, aby nás informovali o nepřítomnosti svých dětí na tréninku, či zápase VČAS, abychom mohli lépe
+						organizovat činnost. Téměř žádná komunikace nebo pozdní omluvy z Vaší strany jsou pro nás nefunkční.</p>
+					<br />Omluvenky můžete např. zavolat, SMS, WhatsApp, Viber, Email nebo osobně. Velmi nám to pomůže v naší práci.
+					<br />Moc děkujeme za pochopení a věříme ve Vaší náklonnost.</p>
+
+					<br />
+
+					<p>Trenér <b>Miroslav Mikeš</b>
+					<br />tel.: 605 126 513
+					<br />email: mirekdana@seznam.cz</p>
+					<br />
+					<p>Vedoucí <b>Pavel Erlebach</b>
+					<br />tel.: 605 982 296
+					<br />email: erlep@seznam.cz</p>
+
+
+					<br />
+					<br />
+                </div>  
+             </div>
+          </div>
+  
+    </div>
+</div>
+
+
+
 	<!-- TRENINKY -->
-	
 	<div class="section blog_g p_main">
 		<div class="container">
 
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-md-offset-3">
 					<div class="page-title">
-						<h2 class="lead">TRÉNINKY (TĚLOCVIČNA)</h2>
+						<h2 class="lead">TRÉNINKY</h2>
 						<div class="border-style"></div>
 					</div>
 				</div>
@@ -126,9 +202,9 @@
 								<thead>
 									<tr>
 										<td>DEN</td>
-										<td>SRAZ</td>
 										<td>ZAČÁTEK</td>
-										<td>KONEC</td>
+                    					<td>KONEC</td>
+                    					<td>MÍSTO</td>
 									</tr>
 								</thead>
 								<tbody>
@@ -140,9 +216,9 @@
 									</tr>
 									<tr>
 										<td>Úterý</td>
-										<td>15:45</td>
 										<td>16:00</td>
-										<td>18:00</td>
+										<td>17:30</td>
+										<td>Hřiště Hamry</td>
 									</tr>
 									<tr>
 										<td>Středa</td>
@@ -152,21 +228,21 @@
 									</tr>
 									<tr>
 										<td>Čtvrtek</td>
-										<td>-</td>
-										<td>-</td>
-										<td>-</td>
+										<td>16:00</td>
+										<td>17:30</td>
+										<td>Hřiště Hamry</td>
 									</tr>
 									<tr>
 										<td>Pátek</td>
-										<td>15:15</td>
-										<td>15:30</td>
+										<td>16:00</td>
 										<td>17:30</td>
+										<td>Hřiště Hamry</td>
 									</tr>
 
 								</tbody>
 								<thead>
 									<tr>
-										<td colspan="4">PROSÍM CHOĎTE VČAS. BUDOVA SE ZAMYKÁ.</td>
+										<td colspan="4">PROSÍM CHOĎTE VČAS.</td>
 									</tr>
 								</thead>
 							</table>
@@ -179,16 +255,16 @@
 
 		</div>
 	</div>
-  
 
-	<!-- INFORMACE PRO RODICE -->
+
+	<!-- INFORMACE O TYMU -->
 	<div class="section blog_g2">
 		<div class="container">
 
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-md-offset-3">
 					<div class="page-title">
-						<h2 class="lead">INFORMACE PRO RODIČE</h2>
+						<h2 class="lead">ZÁKLADNÍ INFORMACE</h2>
 						<div class="border-style"></div>
 					</div>
 				</div>
@@ -196,30 +272,19 @@
 
 			<div class="row">
 
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">     <!-- col-xs-12 col-sm-12 col-md-12 col-lg-12 -->
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="client-text_b">
 
-						<p>DOCHÁZKA: Jelikož začíná být v docházce velký zmatek, tak bychom si dovolili upřesnit
-							pravidla.</p>
+						<p>Mladší žáci U13 jsou v sezóně 2020/2021 účastníkem dvou krajských soutěží v Libereckém kraji.<br /> 
+            Pod hlavičkou Velké Hamry hrají jak <a href="https://souteze.fotbal.cz/turnaje/hlavni/6107b6e0-f97d-4e54-b38a-881d5e63f749">Krajský přebor</a>, tak také <a href="https://souteze.fotbal.cz/turnaje/hlavni/3079a264-b47b-4acf-85b1-4933b153cf2d">1.A třídu</a> Libereckého kraje. </p>
 						<br />
-						<p>Bylo by dobré nás informovat o nepřítomnosti na tréninku a zápasech VČAS, abychom mohli lépe
-							organizovat činnost. Pozdní omluvy a téměř žádná komunikace z Vaší strany je pro nás
-							nefunkční. </p>
-						<br />Omluvenky můžete např. zavolat, SMS. WhatsApp, Viber, Email nebo osobně. Velmi nám to
-						pomůže v naší práci.
-						<br />Moc děkujeme za pochopení a věříme ve Vaší náklonnost.</p>
-						<br />
-						<p>Trenér <b>Mirek Mikeš</b>
-							<br />tel.: 605 126 513
-							<br />email: mirekdana@seznam.cz</p>
-						<br />
-						<br />
-         
 
 					</div>
-				</div>          
+				</div>
 
-      		</div>
+			</div>
+
+
 		</div>
 	</div>
 
@@ -252,40 +317,37 @@
 
 								<tbody>
 									<tr>
-										<td>Harcuba Dan</td>
-										<td>Richtr Denis</td>
-										<td>Miřijovský Milan</td>
-									</tr>
-									<tr>
 										<td>Novotný Filip</td>
-										<td>Lamač Josef</td>
-										<td>Holá Eliška</td>
+										<td>Richtr Denis</td>
+										<td>Harcuba Dan</td>
 									</tr>
 									<tr>
 										<td>Červinka Miroslav</td>
+										<td>Novák Václav</td>
+										<td>Holá Eliška</td>
+									</tr>
+									<tr>
+										<td>Mužíček Petr</td>
+										<td>Miřijovský Milan</td>
+										<td>Polívka Petr</td>
+									</tr>
+									<tr>
 										<td>Drbohlav Marek</td>
+										<td>Hraška Josef</td>
 										<td>Táčner Denis</td>
 									</tr>
 									<tr>
-										<td>Choutka Phillippe</td>
-										<td>Hraška Josef</td>
-										<td>Novák Václav</td>
-									</tr>
-									<tr>
-										<td>Zaml Filip</td>
-										<td>Choutková Vanessa</td>
-										<td>Poselt Marek</td>
-									</tr>
-									<tr>
-										<td>Polívka Petr</td>
-										<td></td>
-										<td></td>
-									</tr>
-									<tr>
-										<td></td>
-										<td></td>
-										<td></td>
-									</tr>
+										<td>Lamač Josef</td>
+										<td>Škaloud Josef</td>
+										<td>-</td>
+                  </tr>
+                  <tr>
+										
+                  <thead>
+                    <tr>
+                    <td colspan="4"></td>
+                    </tr>
+                  </thead>
 
 								</tbody>
 							</table>
@@ -300,95 +362,191 @@
 	</div>
 
 
-	<!-- BLOG/NEWS SECTION -->
+	<!-- BLOG/NEWS SECTION -- JARO 19/20 -->
+	
 	<div class="section blog">
 		<div class="container">
 
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-md-offset-3">
 					<div class="page-title">
-						<h2 class="lead">HALOVÉ TURNAJE 19/20</h2>
+						<h2 class="lead">ROZLOSOVÁNÍ</h2>
 						<div class="border-style"></div>
 					</div>
 				</div>
 			</div>
-
+					
 			<div class="row">
-
+					
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="client-text_b">
-
-						<div class="table-responsive">
-							<table class="table table-striped">
-								<thead>
-									<tr>
-										<td class="tw10">DEN</td>
-										<td class="tw15">DATUM</td>
-										<td class="tw5">ČAS</td>
-										<td class="tw15">MÍSTO</td>
-										<td class="tw15">VÝSLEDEK</td>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Sobota</td>
-										<td>07.12.2019</td>
-										<td>14:00</td>
-										<td>Semily</td>
-										<td>-</td>
-									</tr>
-									<tr>
-										<td>Sobota</td>
-										<td>11.01.2020</td>
-										<td>09:00</td>
-										<td>Smržovka</td>
-										<td>-</td>
-									</tr>
-									<tr>
-										<td>Sobota</td>
-										<td>01.02.2020</td>
-										<td>08:30</td>
-										<td>Žel.Brod</td>
-										<td>-</td>
-									</tr>
-									<tr>
-										<td>Sobota</td>
-										<td>08.02.2020</td>
-										<td>08:30</td>
-										<td>Smržovka</td>
-										<td>-</td>
-									</tr>
-									<tr>
-										<td>Sobota</td>
-										<td>22.02.2020</td>
-										<td>08:30</td>
-										<td>Smržovka</td>
-										<td>-</td>
-									</tr>
-									<tr>
-										<td>Sobota</td>
-										<td>07.03.2020</td>
-										<td>08:30</td>
-										<td>Smržovka</td>
-										<td>-</td>
-									</tr>
-
-								</tbody>
-								<thead>
-									<tr>
-										<td colspan="5">SRAZ PŮL HODINY PŘED TURNAJEM.</td>
-									</tr>
-								</thead>
-							</table>
-						</div>
-
-					</div>
+					
+									<div class="table-responsive">
+										<table class="table table-striped">
+											<thead>
+												<tr>
+													<td>KOLO</td>
+													<td>DEN</td>
+													<td>DATUM</td>
+													<td>VÝKOP</td>
+													<td>DOMÁCÍ</td>
+													<td>HOSTÉ</td>
+													<td>HŘIŠTĚ</td>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>3.</td>
+													<td>sobota</td>
+													<td>05.09.2020</td>
+													<td>11:15</td>
+													<td>V.Hamry</td>
+													<td>Krásná Studánka</td>
+													<td>tráva Hamry</td>
+												</tr>
+												<tr>
+													<td>13.</td>
+													<td>středa</td>
+													<td>09.09.2020</td>
+													<td>18:45</td>
+													<td>V.Hamry</td>
+													<td>Doubí</td>
+													<td>tráva Hamry</td>
+												</tr>
+												<tr>
+													<td>4.</td>
+													<td>sobota</td>
+													<td>12.09.2020</td>
+													<td>11:15</td>
+													<td>Železný Brod</td>
+													<td>V.Hamry</td>
+													<td>tráva Brod</td>
+												</tr>
+												<tr>
+													<td>5.</td>
+													<td>sobota</td>
+													<td>19.09.2020</td>
+													<td>11:15</td>
+													<td>V.Hamry</td>
+													<td>Turnov</td>
+													<td>tráva Hamry</td>
+												</tr>
+												<tr>
+													<td>14.</td>
+													<td>středa</td>
+													<td>23.09.2020</td>
+													<td></td>
+													<td>V.Hamry</td>
+													<td>Semily/Lomnice</td>
+													<td>tráva Hamry</td>
+												</tr>
+												<tr>
+													<td>6.</td>
+													<td>sobota</td>
+													<td>26.09.2020</td>
+													<td></td>
+													<td>V.Hamry</td>
+													<td>volný los</td>
+													<td></td>
+												</tr>
+												<tr>
+													<td>7.</td>
+													<td>sobota</td>
+													<td>03.10.2020</td>
+													<td>11:15</td>
+													<td>V.Hamry</td>
+													<td>Sedmihorky</td>
+													<td>UMT Desná</td>
+												</tr>
+												<tr>
+													<td>15.</td>
+													<td>středa</td>
+													<td>07.10.2020</td>
+													<td>18:15</td>
+													<td>Rapid Liberec</td>
+													<td>V.Hamry</td>
+													<td>tráva Svojsíkova</td>
+												</tr>
+												<tr>
+													<td>8.</td>
+													<td>sobota</td>
+													<td>10.10.2020</td>
+													<td>11:15</td>
+													<td>Jablonec</td>
+													<td>V.Hamry</td>
+													<td>tráva Mozartova</td>
+												</tr>
+												<tr>
+													<td>9.</td>
+													<td>sobota</td>
+													<td>17.10.2020</td>
+													<td>11:15</td>
+													<td>V.Hamry</td>
+													<td>Jilemnice/Roztoky</td>
+													<td>UMT Desná</td>
+												</tr>
+												<tr>
+													<td>10.</td>
+													<td>sobota</td>
+													<td>24.10.2020</td>
+													<td>15:45</td>
+													<td>Ruprechtice</td>
+													<td>V.Hamry</td>
+													<td>UMT Nisa</td>
+												</tr>
+												<tr>
+													<td>1.</td>
+													<td>středa</td>
+													<td>28.10.2020</td>
+													<td>11:15</td>
+													<td>V.Hamry/Desná</td>
+													<td>Lok. Česká Lípa</td>
+													<td>UMT Desná</td>
+												</tr>
+												<tr>
+													<td>11.</td>
+													<td>sobota</td>
+													<td>31.10.2020</td>
+													<td>11:15</td>
+													<td>V.Hamry/Desná</td>
+													<td>Nový Bor</td>
+													<td>UMT Desná</td>
+												</tr>
+                        						<tr>
+													<td>12.</td>
+													<td>sobota</td>
+													<td>07.11.2020</td>
+													<td>11:15</td>
+													<td>Stráž p.R.</td>
+													<td>V.Hamry/Desná</td>
+													<td>tráva Stráž p.R.</td>
+												</tr>
+                        						<tr>
+													<td>2.</td>
+													<td>sobota</td>
+													<td>14.11.2020</td>
+													<td>11:15</td>
+													<td>Ars. Česká Lípa</td>
+													<td>V.Hamry/Desná</td>
+													<td>UMT Arsenal</td>
+												</tr>
+									
+											</tbody>
+											<thead>
+												<tr>
+													<td colspan="7">#FKVH_U11</td>
+												</tr>
+											</thead>
+										</table>
+									</div>
+						
+					</div>		 
 				</div>
 
 			</div>
-
-		</div>
-	</div>
+    
+    </div>
+  </div>
 
 
 	<div class="section blog_g">
@@ -397,14 +555,14 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-md-offset-3">
 					<div class="page-title">
-						<h2 class="lead">VÝSLEDKY TURNAJŮ</h2>
+						<h2 class="lead">VÝSLEDKY</h2>
 						<div class="border-style"></div>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
-
+<!--
 				<div class="col-sm-6 col-md-6">
 					<div class="blog-item">
 						<div class="gambar">
@@ -417,7 +575,7 @@
 						</div>
 					</div>
 				</div>
-
+-->
 				<div class="col-sm-6 col-md-6">
 					<div class="blog-item">
 						<div class="gambar">

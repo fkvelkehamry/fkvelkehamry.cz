@@ -88,21 +88,170 @@
     </div>
 
 
-    <!-- BANNER -->
+	<!-- BANNER -->
 
-    <div class="section subbanner">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    <div class="caption">PŘÍPRAVKA "U7"</div>
+	<div class="section subbanner">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<div class="caption">PŘEDPŘÍPRAVKA "U7"</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- MIMORADNE INFO -->
+<div class="section blog_g2">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-md-offset-3">
+                <div class="page-title">
+                    <h2 class="lead">INFORMACE PRO RODIČE</h2>
+                    <div class="border-style"></div>
                 </div>
             </div>
         </div>
+
+        <div class="row">   <!-- id="novinky" -->
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="client-text_b">
+
+                    <p>Zde naleznete pro Vás důležité zprávy, či aktuální infromace ohledně veškerých změn. 
+					<br />
+                    </p>
+
+					<br />
+        
+                    <p>
+                      <div id="novinky">
+      
+                        <script type="text/javascript">
+                          let div = document.querySelector("#novinky");
+                          fetch("https://api.fkvelkehamry.cz/u7.json")
+                          .then(resp => resp.json())
+                          .then(data => div.innerHTML = data.map(({from, date, text}) => {
+                          date = new Date(date).toLocaleDateString();
+                          text = text.replace(/\n/g, "<br>");
+                          return `
+
+                            <div class="col">
+                              <br>(${date})<br>
+                              ${from}: ${text}
+                            </div>
+
+                          `;
+                          }).join("\n"));
+                        </script>
+                      </div>
+                    </p>  
+              
+                    <br />
+					<br />
+					<h3>NÁBOR</h3>
+					<p>Rodiče, kteří by měli zájem přihlásit své ratolesti (rok narození 2013, 2014, 2015) do fotbalového kroužku, mohou tak učinit na jakémkoliv tréninku předpřípravky.
+					<br />Děkujeme a těšíme se na Vás.</p>
+					<br />
+
+					<p>Trenér <b>Milan Černý</b>
+						<br />tel.: 739 547 328
+						<br />email: milcer@seznam.cz</p>
+                        <br />
+                        
+
+					<br />
+					<br />
+                </div>  
+             </div>
+          </div>
+  
     </div>
+</div>
+
+
+
+	<!-- TRENINKY -->
+	<div class="section blog_g p_main">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-md-offset-3">
+					<div class="page-title">
+						<h2 class="lead">TRÉNINKY</h2>
+						<div class="border-style"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="client-text_b">
+
+						<div class="table-responsive">
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<td>DEN</td>
+										<td>ZAČÁTEK</td>
+                                        <td>KONEC</td>
+                                        <td>MÍSTO</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Pondělí</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+									</tr>
+									<tr>
+										<td>Úterý</td>
+										<td>16:00</td>
+										<td>17:30</td>
+										<td>Hřiště Hamry</td>
+									</tr>
+									<tr>
+										<td>Středa</td>
+										<td>-</td>
+										<td>-</td>
+										<td>-</td>
+									</tr>
+									<tr>
+										<td>Čtvrtek</td>
+										<td>16:00</td>
+										<td>17:30</td>
+										<td>Hřiště Hamry</td>
+									</tr>
+									<tr>
+										<td>Pátek</td>
+										<td>16:00</td>
+										<td>17:30</td>
+										<td>Hřiště Hamry</td>
+									</tr>
+
+								</tbody>
+								<thead>
+									<tr>
+										<td colspan="4">PROSÍME CHOĎTE VČAS.</td>
+									</tr>
+								</thead>
+							</table>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
 
 
 
     <!-- BLOG/NEWS SECTION -->
+<!--
     <div class="section blog">
         <div class="container">
 
@@ -191,7 +340,7 @@
 
         </div>
     </div>
-
+-->
 
     <!-- CLIENT SECTION -->
     <div class="section stat-client p-main">
