@@ -1005,6 +1005,9 @@ td.tw5{
 	padding-bottom:40px;
 	background-color: #E7E7E7;
 }
+#trainer-caro .item{
+	margin: 15px;
+}
 #player-caro .item{
 	margin: 15px;
 }
