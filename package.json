@@ -2,9 +2,15 @@
   "name": "fkvelkehamry.cz",
   "private": true,
   "scripts": {
-    "build": "cp -r src build"
+    "build": "node build.js"
   },
   "repository": "fkvelkehamry/fkvelkehamry.cz",
   "author": "Kate Miháliková <kate@katemihalikova.cz>",
-  "license" : "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "handlebars": "^4.7.6",
+    "metalsmith": "^2.3.0",
+    "metalsmith-discover-partials": "^0.1.2",
+    "metalsmith-templates": "^0.7.0"
+  }
 }
