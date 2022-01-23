@@ -1014,10 +1014,9 @@ td.tw5{
 }
 .player-item{
 	margin-bottom:40px;
-	block-size:25%;
 }
 .player-item .gambar{
-	position:relative;
+	position:static;
 	z-index: 1;
 	background-color: #000;
 	overflow: hidden;
