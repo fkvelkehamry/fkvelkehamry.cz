@@ -1041,7 +1041,9 @@ td.tw5{
 	background-color:#008e39;
 	border-top: 3px solid #fff;
 	position:relative;
+	/*
 	display:block;
+	*/
 	padding: 20px;
 }
 .player-item:hover .item-body{
