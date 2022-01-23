@@ -1041,9 +1041,8 @@ td.tw5{
 	background-color:#008e39;
 	border-top: 3px solid #fff;
 	position:relative;
-	/*
-	display:block;
-	*/
+	display:inline-block;
+	
 	padding: 20px;
 }
 .player-item:hover .item-body{
@@ -1060,17 +1059,15 @@ td.tw5{
     color: #fff;
     line-height: 22px;
 	font-style: normal;
-	/*
 	display: inline-block;
-	*/
+	
 }
 .position span{
 	color: #fff;
 	font-style: normal;
 	font-weight: bold;
-	/*
 	display: inline-block;
-	*/
+	
 	padding: 3px 10px;
 	margin-right: 10px;
 	border-radius: 4px;
