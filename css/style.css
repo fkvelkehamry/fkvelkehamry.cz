@@ -1046,10 +1046,7 @@ td.tw5{
 	background-color:#008e39;
 	border-top: 3px solid #fff;
 	position:relative;
-	/*
-	block-size: 25%;
-	*/
-	display:inline-block;
+	display:block;
 	
 	padding: 20px;
 }
