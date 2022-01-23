@@ -1060,13 +1060,17 @@ td.tw5{
     color: #fff;
     line-height: 22px;
 	font-style: normal;
+	/*
 	display: inline-block;
+	*/
 }
 .position span{
 	color: #fff;
 	font-style: normal;
 	font-weight: bold;
+	/*
 	display: inline-block;
+	*/
 	padding: 3px 10px;
 	margin-right: 10px;
 	border-radius: 4px;
