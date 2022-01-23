@@ -1016,7 +1016,7 @@ td.tw5{
 	margin-bottom:40px;
 }
 .player-item .gambar{
-	position:static;
+	position:relative;
 	z-index: 1;
 	background-color: #000;
 	overflow: hidden;
