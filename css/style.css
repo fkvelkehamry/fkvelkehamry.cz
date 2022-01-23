@@ -1007,13 +1007,14 @@ td.tw5{
 }
 .section.player2{
 	padding-bottom:40px;
-	background-color: #F4F4F4;
+	background-color: #ffffff;
 }
 #player-caro .item{
 	margin: 15px;
 }
 .player-item{
 	margin-bottom:40px;
+	block-size:25%;
 }
 .player-item .gambar{
 	position:relative;
@@ -1045,7 +1046,9 @@ td.tw5{
 	background-color:#008e39;
 	border-top: 3px solid #fff;
 	position:relative;
+	/*
 	block-size: 25%;
+	*/
 	display:inline-block;
 	
 	padding: 20px;
