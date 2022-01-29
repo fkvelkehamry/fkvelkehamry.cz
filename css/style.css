@@ -2129,6 +2129,14 @@ p.help-block.text-danger li {
 	margin-bottom:10px;
 	font-size: 15px;
 }
+.contact-heading-separate{
+	color: #000;
+    font-weight: 700;
+	margin-bottom:10px;
+	font-size: 15px;
+	background-color: #008e39;
+  	padding: 10px;
+}
 .maps-wraper{
 	position:relative;
 }
@@ -2199,11 +2207,6 @@ p.help-block.text-danger li {
 	background-position: 50% -32px;
 }
 
-.contact-separate{
-	text-align:center;
-	background-color: #008e39;
-	padding: 10px;
-}
 
 /* ==========================
 13. Footer
