@@ -2199,6 +2199,12 @@ p.help-block.text-danger li {
 	background-position: 50% -32px;
 }
 
+.contact-separate{
+	text-align:center;
+	background-color: #008e39;
+	padding: 10px;
+}
+
 /* ==========================
 13. Footer
 ============================= */
