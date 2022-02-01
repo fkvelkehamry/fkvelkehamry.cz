@@ -2136,6 +2136,8 @@ p.help-block.text-danger li {
 	font-size: 20px;
 	background-color: #008e39;
   	padding: 10px;
+	margin-left: calc((100% - 100vw) / 2);
+    margin-right: calc((100% - 100vw) / 2);
 }
 .maps-wraper{
 	position:relative;
