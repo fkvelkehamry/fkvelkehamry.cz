@@ -648,6 +648,11 @@ strong, b{
 	font-size: 14px;
 	color: #fff;
 }
+.liga-popis{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+}
 
 /* ==========================
 5. About
