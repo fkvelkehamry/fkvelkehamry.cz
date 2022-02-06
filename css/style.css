@@ -610,7 +610,7 @@ strong, b{
 }
 .match-club{
 	text-align:center;
-	margin-bottom:40px;
+	margin-bottom:0px;
 }
 .club-name{
 	font-size: 20px;
@@ -642,11 +642,12 @@ strong, b{
 	font-family: 'arial', sans-serif;
     font-weight: 700;
 	color: #fff;
-	margin-top: 60px;
+	margin-top: 75px;
 }
 .liga-location{
 	font-size: 14px;
 	color: #fff;
+	margin-top:  10px;
 	margin-bottom: -30px;
 }
 
