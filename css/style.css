@@ -622,7 +622,7 @@ strong, b{
 	text-align:center;
 }
 .liga-name{
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'arial', sans-serif;
     font-weight: 700;
 	color: #fff;
@@ -638,27 +638,16 @@ strong, b{
 	margin-bottom: 40px;
 }
 .liga-vs{
-	font-size: 28px;
+	font-size: 35px;
 	font-family: 'arial', sans-serif;
     font-weight: 700;
 	color: #fff;
-	margin-top: 50%;
-}
-.liga-vs2{
-	font-size: 28px;
-	font-family: 'arial', sans-serif;
-    font-weight: 700;
-	color: #fff;
-	margin-top: 50px;
+	margin-top: 60px;
 }
 .liga-location{
 	font-size: 14px;
 	color: #fff;
-}
-.liga-popis{
-	font-size: 20px;
-	color: #fff;
-	font-weight: 700;
+	margin-bottom: -30px;
 }
 
 /* ==========================
