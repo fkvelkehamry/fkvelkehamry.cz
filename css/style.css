@@ -621,6 +621,9 @@ strong, b{
 .match-description{
 	text-align:center;
 }
+.match-details{
+	text-align:left;
+}
 .liga-name{
 	font-size: 25px;
 	font-family: 'arial', sans-serif;
