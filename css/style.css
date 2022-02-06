@@ -622,7 +622,7 @@ strong, b{
 	text-align:center;
 }
 .liga-name{
-	font-size: 40px;
+	font-size: 30px;
 	font-family: 'arial', sans-serif;
     font-weight: 700;
 	color: #fff;
@@ -642,7 +642,7 @@ strong, b{
 	font-family: 'arial', sans-serif;
     font-weight: 700;
 	color: #fff;
-	margin-bottom: 60px;
+	margin-bottom: 50%;
 }
 .liga-location{
 	font-size: 14px;
