@@ -1334,7 +1334,7 @@ td.tw5{
 .blog_uvodni{
 	padding-bottom:80px;
 	padding-top:80px;
-  background-color: #E7E7E7;
+  background-color: #F4F4F4;
 }
 .blog-item{
 	margin-bottom:40px;
@@ -2449,11 +2449,11 @@ p.help-block.text-danger li {
 		padding-left: 0;
 	}
 	.banner,.subbanner {
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 	.banner .caption {
 		position: absolute;
-		top: 100px;
+		top: 150px;
 		left: 20px;
 		right: 20px;
 	}
