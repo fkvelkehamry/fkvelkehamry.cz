@@ -1331,9 +1331,10 @@ td.tw5{
 	padding-bottom:80px;
   background-color: #F4F4F4;
 }
-.blog_green{
+.blog_uvodni{
 	padding-bottom:80px;
-  background-color: #008e39;
+	padding-top:80px;
+  background-color: #E7E7E7;
 }
 .blog-item{
 	margin-bottom:40px;
